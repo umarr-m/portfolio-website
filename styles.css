@@ -2,3 +2,53 @@
     background-color: #fcfcfc;
     font-family: Proza Libre;
 }
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+h1 {
+    display: flex;
+    float: left;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+li {
+    padding: 10px;
+}
+
+.picture {
+    display: inline-block;
+    width: 50%;
+    overflow: hidden;
+    height: auto;
+}
+
+#flexImage {
+    
+    width: 300px;           /* Adjust size as needed */
+    height: 300px; 
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.8s ease; 
+}
+.introduction {
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    height: 400px;
+    margin: 50px;
+}
+
+
+.text {
+    display: flex;
+    flex-direction: column;
+    display: inline-flex;
+}
